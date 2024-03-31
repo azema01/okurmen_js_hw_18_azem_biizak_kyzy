@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <input type="text" id="numberInput" placeholder="Номер">
+        <input type="text" id="flagInput" placeholder="Флаг">
+        <input type="text" id="dateInput" placeholder="Дата">
+        <textarea id="infoTextarea" placeholder="Информация"></textarea>
+        <button id="addButton">Карточка кошуу</button>
+        <div id="cardsContainer"></div>
+        <button onclick="deleteCard({index})">X</button>;
+    </div>
+
+
+    <div id="cardContainer"></div>
+    <button onclick="addCard()">Добавить карточку</button>
+
+
+    <script src="./index.js"></script>
+</body>
+
+</html>
