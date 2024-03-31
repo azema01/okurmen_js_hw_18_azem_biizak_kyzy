@@ -57,12 +57,12 @@ function addCard() {
     cardIndex++;
 }
 
-// Карточканы очуруу функциясы
+
 function deleteCard(index) {
   cards.splice(index, 1);
      
   
-  // localStorage-дан карточканы очуруу
+  
   localStorage.setItem('cards', JSON.stringify(cards));
 
   displayCards();
